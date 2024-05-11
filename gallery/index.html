@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=montserrat:400" rel="stylesheet" />
-    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <script src="/script.js"></script>
 </head>
 <body>
     <div class="background"></div>
@@ -28,13 +28,36 @@
                 <a class="menu-item menu.home" href="#"></a>
                 <a class="menu-item menu.pricing" href="#"></a>
                 <a class="menu-item menu.contact" href="#"></a>
-                <a class="menu-item menu.gallery" href="/gallery"></a>
+                <a class="menu-item menu.gallery" href="#"></a>
 
             </div>
         </div>
     </div>
     <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias animi autem, cum cupiditate deleniti dignissimos dolor dolores dolorum earum eius enim eum ex explicabo incidunt inventore ipsa itaque labore maiores molestiae molestias mollitia nemo nesciunt quae saepe sequi sit ullam vero voluptate voluptates? Asperiores doloribus et quae vero voluptatum?</p>
+        <div class="photos">
+            <h1 class="gallery.photos"></h1>
+            <div class="items">
+                <img class="item" src="https://cdn.moondev.eu/slavik/20231017_201907.jpg" alt="">
+                <img class="item" src="https://cdn.moondev.eu/slavik/20240127_131623.jpg" alt="">
+                <img class="item" src="https://cdn.moondev.eu/slavik/20240218_013650.jpg" alt="">
+                <img class="item" src="https://cdn.moondev.eu/slavik/20240322_215917.jpg" alt="">
+                <img class="item" src="https://cdn.moondev.eu/slavik/20240414_141117.webp" alt="">
+                <img class="item" src="https://cdn.moondev.eu/slavik/20240407_201420.jpg" alt="">
+                <img class="item" src="https://cdn.moondev.eu/slavik/20240409_142057.jpg" alt="">
+                <img class="item" src="https://cdn.moondev.eu/slavik/20240411_191314.jpg" alt="">
+                <img class="item" src="https://cdn.moondev.eu/slavik/20240412_215957.webp" alt="">
+                <img class="item" src="https://cdn.moondev.eu/slavik/IMG_20240428_124620.png" alt="">
+                <img class="item" src="https://cdn.moondev.eu/slavik/20231101_074711.jpg" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="videos">
+            <h1 class="gallery.videos"></h1>
+            <div class="video-items">
+                <iframe class="video-item" src="https://mmovies.ovh/embed/?url=https://vz-4299657c-77c.b-cdn.net/ca32b487-22c8-4aaa-91ab-39ae882b939c/playlist.m3u8&cover=https://vz-4299657c-77c.b-cdn.net/ca32b487-22c8-4aaa-91ab-39ae882b939c/thumbnail.jpg" frameborder="0" allowfullscreen></iframe>
+                <iframe class="video-item" src="https://mmovies.ovh/embed/?url=https://vz-4299657c-77c.b-cdn.net/d4b653d9-39e2-4111-b3bd-75a083cdbbff/playlist.m3u8&cover=https://vz-4299657c-77c.b-cdn.net/d4b653d9-39e2-4111-b3bd-75a083cdbbff/thumbnail_8cc01b08.jpg" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -62,5 +85,7 @@
             });
         });
     </script>
+
+
 </body>
 </html>

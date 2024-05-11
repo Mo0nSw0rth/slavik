@@ -1,9 +1,11 @@
 {
     "head.title": "slavik // 3D printing",
-    "menu.about": "About me",
+    "menu.home": "Home",
     "menu.pricing": "Pricing",
     "menu.contact": "Contact",
     "menu.gallery": "Gallery",
     "lang.english": "English",
-    "lang.czech": "Czech"
+    "lang.czech": "Czech",
+    "gallery.photos": "Photos",
+    "gallery.videos": "Videos"
 }
