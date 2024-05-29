@@ -1,5 +1,4 @@
 function loadLang(lang) {
-    console.log(lang)
     fetch("/lang/" + lang + '.json')
         .then(response => response.json())
         .then(data => {
@@ -8,7 +7,6 @@ function loadLang(lang) {
                     document.title = data[key]
                     continue
                 }
-                console.log(key)
                 const objects = document.getElementsByClassName(key)
                 for (let i = 0; i < objects.length; i++) {
                     objects[i].textContent = data[key];
@@ -17,7 +15,6 @@ function loadLang(lang) {
         })
         .catch(error => {
             console.error('Error loading JSON file:', error);
-            loadLang("en")
         });
 }
 

@@ -7,5 +7,17 @@
     "lang.english": "English",
     "lang.czech": "Czech",
     "gallery.photos": "Photos",
-    "gallery.videos": "Videos"
+    "gallery.videos": "Videos",
+    "content.welcome": "Welcome to my 3D printing eshop!",
+    "info.desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae consequuntur culpa, deleniti distinctio dolorem doloribus earum eum ex magnam molestias optio, quidem repudiandae tempora vero. Consequuntur culpa ducimus excepturi, fugit illo iste iure iusto laudantium maiores maxime odio quibusdam reprehenderit sunt tempora velit vero vitae voluptas voluptatem voluptates voluptatibus! Asperiores assumenda commodi consequatur dignissimos dolorum ducimus explicabo id impedit in iste, magnam minus molestias neque nihil nisi omnis praesentium quod quos, repellendus sapiente sed, totam unde vero! Architecto, corporis doloremque ducimus, fugiat iure, molestias omnis perferendis quas quibusdam quis quo quod quos rem suscipit velit. Deserunt fugit nobis ut.",
+    "pros.why": "Why to pick me?",
+    "pros.item1": "Affordable prices",
+    "pros.item2": "High quality materials",
+    "pros.item3": "Quick communication",
+    "pros.item4": "Fast delivery",
+    "contact.title": "Contact",
+    "contact.info": "To contact me, you can use the following links to specific sites where I am available.",
+    "pricing.title": "Pricing",
+    "pricing.info": "Due to the variety of projects, please contact me with a proposal using the button below and we will agree on a price.",
+    "pricing.btn": "Send a message"
 }

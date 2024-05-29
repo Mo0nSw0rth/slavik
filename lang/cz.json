@@ -7,5 +7,17 @@
     "lang.english": "Anglicky",
     "lang.czech": "Česky",
     "gallery.photos": "Fotky",
-    "gallery.videos": "Videa"
+    "gallery.videos": "Videa",
+    "content.welcome": "Vítejte v mém 3D tiskovém eshopu!",
+    "info.desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae consequuntur culpa, deleniti distinctio dolorem doloribus earum eum ex magnam molestias optio, quidem repudiandae tempora vero. Consequuntur culpa ducimus excepturi, fugit illo iste iure iusto laudantium maiores maxime odio quibusdam reprehenderit sunt tempora velit vero vitae voluptas voluptatem voluptates voluptatibus! Asperiores assumenda commodi consequatur dignissimos dolorum ducimus explicabo id impedit in iste, magnam minus molestias neque nihil nisi omnis praesentium quod quos, repellendus sapiente sed, totam unde vero! Architecto, corporis doloremque ducimus, fugiat iure, molestias omnis perferendis quas quibusdam quis quo quod quos rem suscipit velit. Deserunt fugit nobis ut.",
+    "pros.why": "Proč si vybrat právě mě?",
+    "pros.item1": "Přijatelné ceny",
+    "pros.item2": "Kvalitní materiály",
+    "pros.item3": "Rychlá komunikace",
+    "pros.item4": "Rychlé dodání",
+    "contact.title": "Kontakt",
+    "contact.info": "Chcete-li mě kontaktovat, můžete použít následující odkazy na konkrétní stránky, kde jsem k dispozici.",
+    "pricing.title": "Ceník",
+    "pricing.info": "Z důvodu různorodosti projektů mě, prosím, kontaktujte s návrhem pomocí tlačítka níže a dohodneme se na ceně.",
+    "pricing.btn": "Poslat zprávu"
 }

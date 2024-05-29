@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="menu-container">
+        <div class="menu-toggle">
+            <div class="language-selector">
+                <button class="dropbtn"><i class="fa-solid fa-language fa-2xl" style="color: #ffffff;"></i></button>
+                <div class="dropdown-content">
+                    <a href="#" class="lang.english" data-lang="en"></a>
+                    <a href="#" class="lang.czech" data-lang="cz"></a>
+                </div>
+            </div>
+            <i class="menu-icon fa-solid fa-bars"></i>
+        </div>
+        <div class="dropdown-menu">
+            <div class="sub-menu">
+                <a class="menu-item menu.home" href="/"></a>
+                <a class="menu-item menu.pricing" href="/pricing"></a>
+                <a class="menu-item menu.contact" href="/contact"></a>
+                <a class="menu-item menu.gallery" href="/gallery"></a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h1 class="title pricing.title"></h1>
+        <p class="pricing.info"></p>
+        <button class="send pricing.btn" onclick="window.open('mailto:vitoid@email.cz?subject=Custom order&body=Hello, I would like to order...', '_blank');"></button>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('.dropbtn').on('click', function() {
+                $(this).next('.dropdown-content').slideToggle();
+            });
+
+            $(document).ready(function(){
+                $('.menu-icon').click(function(){
+                    $('.dropdown-menu').slideToggle();
+                });
+            });
+
+            $('.dropdown-content a').on('click', function(e) {
+                e.preventDefault();
+                const langCode = $(this).data('lang');
+                loadLang(langCode)
+            });
+
+            $(document).on('click', function(event) {
+                if (!$(event.target).closest('.language-selector').length) {
+                    $('.dropdown-content').slideUp();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
